@@ -1,0 +1,3 @@
+Notatnik z budowy aplikacji
+
+1. Dodano folder z działającą aplikacją aby sprawdzić jej działanie i kod
