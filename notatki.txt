@@ -1,3 +1,4 @@
 Notatnik z budowy aplikacji
 
 1. Dodano folder z działającą aplikacją aby sprawdzić jej działanie i kod
+2.Dodano pliki: index.php, login.php oraz users.php. Oprócz tego style.css
