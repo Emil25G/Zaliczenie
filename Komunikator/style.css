@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    transition:width 1s linear 2s, background-color 2s ease-in 0s;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #8d52a4;
+}
+
+.wrapper{
+    background: #fff;
+    width: 450px;
+    border-radius: 16px;
+    box-shadow: 100px 100px 128px 100px rgba(0, 0, 0, 0.1),
+                    52px 32px 69px -48px rgba(0, 0, 0, 0.5)
+}
+
+.form{
+    padding: 30px 30px;
+}
+
+.form header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.form form{
+    margin: 20px 0;
+}
+
+.form form .errorText{
+    color: red;
+    background: #f8d7da;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.form form .Dane input{
+    outline: none;
+    transition:width 1s linear 2s, background-color 2s ease-in 0s;
+    text-align: left;
+    text-decoration: dashed;
+    border-radius: 6px;
+}
+
+.form form .ProfilePhoto{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form form .SingUp{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form form .Dane{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form form .Dane input:hover{
+    background-color: rgb(238, 230, 230);
+    border: 1px solid #9975a8;
+    
+}
+
+.form form .personalData{
+    display: flex;
+}
+
+form .personalData .Dane:first-child{
+    margin-right: 10px;
+}
+
+form .personalData .Dane:last-child{
+    margin-left: 10px;
+}
+
+.form form .input input{
+    height: 35px;
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid #ccc;
+
+}
+
+.form form .Dane label{
+    margin-bottom: 2px;
+}
+
+.form form .ProfilePhoto input{
+    font-size: 17px;
+    margin-top: 3px;
+}
+
+.form form .SingUp input{
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    background: #4b0b5e;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition:width 0.5s linear 1s, background-color 0.5s ease-in 0s;
+}
+
+.form form .SingUp input:hover{
+    margin-top: 13px;
+    height: 45px;
+    border: 1px solid #4b0b5e;
+    font-size: 17px;
+    font-weight: 400;
+    background: #ffffff;
+    color: #4b0b5e;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form .LoginNow{
+    text-align: center;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.form .LoginNow a{
+    color: #422bd9;
+    font-weight: bold;
+}
+
+.form .LoginNow a:hover{
+    color: #333;
+    text-decoration: underline;
+}
