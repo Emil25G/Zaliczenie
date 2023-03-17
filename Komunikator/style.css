@@ -188,7 +188,7 @@ form .personalData .Dane:last-child{
 }
 
 .users header .logout{
-   background:#333;
+   background:#4b0b5e;
    padding: 7px 15px;
    color: #ffffff; 
    font-size: 17px;
@@ -202,6 +202,7 @@ form .personalData .Dane:last-child{
     align-items: center;
     justify-content: space-between;
     color: #ffffff; 
+    
 
 }
 
@@ -218,6 +219,8 @@ font-size: 18px;
     font-size: 16px;
     border-radius: 5px 0 0 5px;
     outline:none;
+    transition: width 1s linear 2s, background-color 2s ease-in 0s;
+    
 }
 
 .users .search button{
@@ -226,7 +229,7 @@ font-size: 18px;
     border: none;
     outline:none;
     color: #fff;
-    background: #333;
+    background: #4b0b5e;
     cursor: pointer;
     font-size:17px;
     border-radius:0 5px 5px 0;
