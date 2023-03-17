@@ -14,9 +14,9 @@
             <section class="users">
                 <header>
                     <div class="content"> 
-                        <img src="img.jpg" alt="">
+                        <img src="img/profil1.png" alt="">
                         <div class="details">
-                            <span> WSB - K_27 </span>
+                            <span> Informatyk 1 </span>
                             <p> Aktywny teraz </p>
                         </div>
                     </div>
@@ -25,10 +25,92 @@
                 <div class="search">
                     <span class="text">Wybierz osobę aby rozpocząć czat</span>
                     <input type="text" placeholder="Wyszukaj osobę...">
-                    <button> <i class="fas fa-search"></i></button>
+                    <button> <i class="fas fa-search"></i></button> 
                 </div>  
+                <div class="users-list"> <!--Lista użytkowników-->
+                    <a href="#">
+                        <div class="content">
+                          <img src="img/profil1.png" alt="" class="">
+                            <div class="details">
+                                <span> Informatyk 2 </span>
+                                 <p> Testowa wiadomość </p>
+                            </div>  
+                        </div>
+                        <div class="status-dot"><i class="fas fa-circle"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="content">
+                          <img src="img/profil1.png" alt="" class="">
+                            <div class="details">
+                                <span> Informatyk 2 </span>
+                                 <p> Testowa wiadomość </p>
+                            </div>  
+                        </div>
+                        <div class="status-dot"><i class="fas fa-circle"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="content">
+                          <img src="img/profil1.png" alt="" class="">
+                            <div class="details">
+                                <span> Informatyk 2 </span>
+                                 <p> Testowa wiadomość </p>
+                            </div>  
+                        </div>
+                        <div class="status-dot"><i class="fas fa-circle"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="content">
+                          <img src="img/profil1.png" alt="" class="">
+                            <div class="details">
+                                <span> Informatyk 2 </span>
+                                 <p> Testowa wiadomość </p>
+                            </div>  
+                        </div>
+                        <div class="status-dot"><i class="fas fa-circle"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="content">
+                          <img src="img/profil1.png" alt="" class="">
+                            <div class="details">
+                                <span> Informatyk 2 </span>
+                                 <p> Testowa wiadomość </p>
+                            </div>  
+                        </div>
+                        <div class="status-dot"><i class="fas fa-circle"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="content">
+                          <img src="img/profil1.png" alt="" class="">
+                            <div class="details">
+                                <span> Informatyk 2 </span>
+                                 <p> Testowa wiadomość </p>
+                            </div>  
+                        </div>
+                        <div class="status-dot"><i class="fas fa-circle"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="content">
+                          <img src="img/profil1.png" alt="" class="">
+                            <div class="details">
+                                <span> Informatyk 2 </span>
+                                 <p> Testowa wiadomość </p>
+                            </div>  
+                        </div>
+                        <div class="status-dot"><i class="fas fa-circle"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="content">
+                          <img src="img/profil1.png" alt="" class="">
+                            <div class="details">
+                                <span> Informatyk 2 </span>
+                                 <p> Testowa wiadomość </p>
+                            </div>  
+                        </div>
+                        <div class="status-dot"><i class="fas fa-circle"></i></div>
+                    </a> <!-- Lista użytkowników - koniec-->
+                </div>
             </section>
         </div>
     </body>
 
-</html>
+</html> 

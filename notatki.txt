@@ -1,4 +1,5 @@
 Notatnik z budowy aplikacji
 
 1. Dodano folder z działającą aplikacją aby sprawdzić jej działanie i kod
-2.Dodano pliki: index.php, login.php oraz users.php. Oprócz tego style.css
+2. Dodano pliki: index.php, login.php oraz users.php. Oprócz tego style.css
+3. Dodano plik chat.php i skończono users.php. Do zrobienia CSS dla chata
