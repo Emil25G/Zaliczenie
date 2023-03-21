@@ -28,7 +28,7 @@
                     <div class="Dane input">
                         <label> Adres email:</label>
                         <input type="text" placeholder=" Adres email">
-                    </div>
+                    </div> 
                     <div class="Dane input">
                         <label>Hasło:</label>
                         <input type="text" placeholder=" Hasło">

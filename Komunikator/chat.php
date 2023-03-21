@@ -13,16 +13,96 @@
         <div class="wrapper">
             <section class="chat-area">
                 <header>
-                    <div class="content"> 
-                        <img src="#" alt="">
+                        <a href="#" class="back-icon"><i class="fas fa-arrow-left"></i></a>                  
+                        <img src="img/profil1.png" alt="">
                         <div class="details">
                             <span> Informatyk 1 </span>
                             <p> Aktywny teraz </p>
+                        </div>                     
+                </header>  
+                <div class="chat-box">
+                    <div class="chat outgoing">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
-                    <a href="#" class="logout">Wyloguj</a>    
-                </header>  
-             
+                    <div class="chat incoming">
+                        <img src="img/profil1.png" alt="">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="chat outgoing">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="chat incoming">
+                        <img src="img/profil1.png" alt="">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="chat outgoing">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="chat incoming">
+                        <img src="img/profil1.png" alt="">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="chat outgoing">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="chat incoming">
+                        <img src="img/profil1.png" alt="">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="chat outgoing">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="chat incoming">
+                        <img src="img/profil1.png" alt="">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="chat outgoing">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="chat incoming">
+                        <img src="img/profil1.png" alt="">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="chat outgoing">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="chat incoming">
+                        <img src="img/profil1.png" alt="">
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div> 
+                <form action="#" class="typing-area">
+                    <input type="text" placeholder="Napisz Wiadomość...">
+                    <button><i class="fab fa-telegram-plane"></i></button>
+                </form>  
             </section>
         </div>
     </body>
