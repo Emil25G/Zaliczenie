@@ -4,4 +4,5 @@ Notatnik z budowy aplikacji
 2. Dodano pliki: index.php, login.php oraz users.php. Oprócz tego style.css
 3. Dodano plik chat.php i skończono users.php. Do zrobienia CSS dla chata
 4. Ukończono chat.php frontend 46:37 !!! Start JS
+5. Wszystkie zmiany obgadamy online.
 
