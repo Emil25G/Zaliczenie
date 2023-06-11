@@ -53,7 +53,6 @@ function displayMessages() {
                     var user = messages[i].user;
                     var message = messages[i].message;
                     var timestamp = messages[i].timestamp;
-
                     
                     var row = document.createElement('tr');
 
@@ -65,7 +64,6 @@ function displayMessages() {
                     
                     var messageCell = document.createElement('td');
                     messageCell.textContent = message;
-
                     
                     var timestampCell = document.createElement('td');
                     timestampCell.textContent = timestamp;

@@ -49,7 +49,7 @@
   <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
   <body onload="displayMessages()">
 
-<div class="modal fade" id="myModal" role="dialog">
+<div class="modal fade" id="myModal" role="dialog" enctype="multipart/form-data">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -63,12 +63,18 @@
                         <textarea class="form-control" rows="5" name="msg"></textarea>
                         <script src="javascript/validation.js"></script>
                     </div>
+                    <!-- tutaj miało być pobieranie ale wycofałem zmiany
+                    <div class="form-group">
+                     <label for="file">Plik:</label>
+                     <input type="file" name="file">
+                     </div> 
+                     -->
                     <input type="button" name="save" class="Btn send" value="Wyślij" id="butsave">
                 </form>
             </div>
             <div id="messageContainer">
             <h2>Wiadomości:</h2>
-            <table class="table table-dark table-striped" id="MyTable">               
+            <table class="table" id="MyTable">               
             <tbody id="record">
             </tbody>
             </table>

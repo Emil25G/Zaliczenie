@@ -448,12 +448,22 @@ body{
   .chat-area form button{
     width: 45px;
   }
+ 
+}
+
+@media screen and (max-width: 780px) {
+   .modal-content{
+    margin-left:50%;
+  }
 }
 
 /* modal */
 .modal-content {
   background-color: #f1f1f1;
   padding: 20px;
+  width: 180%;
+  position: absolute;
+  left: -40%;
 }
 
 .form-control {
@@ -461,6 +471,7 @@ body{
   border: 1px solid #373232;
   border-radius: 4px;
   box-sizing: border-box;
+  resize: horizontal;
 }
 
 .Btn {
@@ -491,19 +502,38 @@ body{
 .table {
   width: 100%;
   word-wrap: break-word;
+  table-layout:fixed;
   border-collapse: collapse;
+  background-color: #ddd;
+  border-style: hidden;
+  color:black;
 }
 
 .table td, .table th {
-  border: 1px solid #ddd;
+  border: 2px solid white;
   padding: 8px;
   word-wrap: break-word;
+  text-align: center;
 }
 
-.table tr:nth-child(even){background-color: #f2f2f2;
-  word-wrap: break-word;}
+.table td:nth-child(2) {
+text-align: left;
+}
 
-.table tr:hover {background-color: #ddd;}
+.table td:nth-child(1) {
+  width: 11%;
+}
+
+ .table td:nth-child(3) {
+    width: 11%;
+    }
+
+/* Pokolorowane jak zebra
+.table tr:nth-child(even){background-color: #f2f2f2;
+  word-wrap: break-word;table-layout:fixed}
+*/
+
+.table tr:hover {background-color: #c48ee0; color:white;}
 
 .table th {
   padding-top: 12px;
@@ -512,6 +542,7 @@ body{
   background-color: #75359c;
   color: white;
   word-wrap: break-word;
+  border: 2px solid white;
 }
 
 .modal-dialog {

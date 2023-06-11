@@ -15,7 +15,7 @@ if ($result->num_rows > 0) {
     }
     echo json_encode(array('status' => 'success', 'messages' => $json));
 } else {
-    echo json_encode(array('status' => 'error', 'message' => 'Brak wiadomości.'));
+    echo json_encode(array('status' => 'error', 'message' => 'Brak wiadomości'));
 }
 
 mysqli_close($conn);

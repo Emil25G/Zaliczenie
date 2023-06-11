@@ -9,7 +9,6 @@ $output = "";
 while($row = mysqli_fetch_assoc($query)){
     $sender_id = $row['sender_id'];
     $message = $row['message'];
-    $timestamp = $row['timestamp'];
 
     // Pobierz informacje o nadawcy wiadomości
     $sender_sql = "SELECT * FROM users WHERE unique_id = {$sender_id}";
